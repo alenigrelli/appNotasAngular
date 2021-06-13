@@ -2,12 +2,12 @@
     <div class = "card">        
         <div class =  "card-body">
             <span class="h3"> Mis anotaciones</span>
-            <div class="mt-4">
-            <input type="text" class="redondeado" style="margin-right:10px" [(ngModel)]="filtro" placeholder=" Título">
-            <button class="btn btn-primary" style="margin-right:10px" [routerLink]="['/list-buscador/',filtro]"> Buscar </button>
-            <button class="btn btn-primary" [routerLink]="['/list-notas/']"> Limpiar </button>
-            <button class="btn btn-primary" style="float: right" routerLink="/create-nota">Agregar</button>
-            </div>
+              <div class="mt-4">
+                <input type="text" class="redondeado" style="margin-right:10px" [(ngModel)]="filtro" placeholder=" Título">
+                <button class="btn btn-primary" style="margin-right:10px" [routerLink]="['/list-buscador/',filtro]"> Buscar </button>
+                <button class="btn btn-primary" [routerLink]="['/list-notas/']"> Limpiar </button>
+                <button class="btn btn-primary" style="float: right" routerLink="/create-nota">Agregar</button>
+              </div>
             <table class="table table-striped mt-4">
                 <thead>
                   <tr>
